@@ -64,7 +64,6 @@ PLST_N="com.tyos.BeatAutosaver.plist"
 PLST=$(< "$PLST_N")
 PLST=${PLST/"%inst_dir%"/"$INST_DIR"}
 ABS_PLST_PATH="$(echo ~)/Library/LaunchAgents/$PLST_N"
-echo "$ABS_PLST_PATH"
 echo "$PLST" > "$ABS_PLST_PATH"
 chown root:wheel "$ABS_PLST_PATH"
 
