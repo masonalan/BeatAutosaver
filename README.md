@@ -47,6 +47,6 @@ I am working on implementing the following:
 
 -   Compatibility with more naming conventions
 -   Installing with a traditional .pkg installer
--   UI interface
+-   UI interface to manage settings and unload/reload launch agent
 -   Ability to change last day of week (currently Sunday)
 -   Download python3 and fswatch on install rather than including them in git repo
