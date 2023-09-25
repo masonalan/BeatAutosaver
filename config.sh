@@ -23,7 +23,6 @@ WATCH_P="%watch_path%"
 # Destination directory
 # 
 # The path where sorted bounces are stored
-# Requires restart of com.tyos.BeatAutosaver.plist for change to take effect
 #
 # --------------------------------------
 DEST_P="%dest_path%"
