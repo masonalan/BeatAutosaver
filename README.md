@@ -26,22 +26,23 @@ To install, run:
 When prompted, input the folder where you save your beats and the folder where you'd like your weekly folders to be. For now, these paths must be absolute (no `~` or relative paths).
 
 BeatAutosaver requires `python3` and `fswatch`. If either or both are not installed, the installer will take the liberty to install them for you at no extra cost. Xcode Command Line Tools are also required, but you will have to install them manually. To install them, try running:
-      `xcode-select –install`
+
+    xcode-select –install
 
 
 ## Configuration
 
 To update your settings, go to your install directory and open `config.sh`. Some settings require a restart of the launch agent to be applied. To do that, run:
 
-        launchctl stop com.tyos.BeatAutosaver.plist
-        launchctl start com.tyos.BeatAutosaver.plist
+    launchctl stop com.tyos.BeatAutosaver.plist
+    launchctl start com.tyos.BeatAutosaver.plist
 
 
 ## Running
 
 BeatAutosaver will automatically run after install. Currently, BeatAutosaver will copy any file that looks like a beat or a loop that has been created or changed to its respective weekly folder. If you want to search through your entire beat folder and sort all your beats at once, navigate to your install directory and run:
 
-        ./beat_autosaver.sh --all
+    ./beat_autosaver.sh --all
         
 
 ## Future Improvements
