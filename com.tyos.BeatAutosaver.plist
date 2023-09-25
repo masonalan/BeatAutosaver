@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>KeepAlive</key>
+		<true/>
+		<key>Label</key>
+		<string>com.tyos.BeatAutosaver</string>
+		<key>ProgramArguments</key>
+		<array>
+			<string>sh</string>
+			<string>%inst_dir%/beat_autosaver_agent.sh</string>
+		</array>
+		<key>RunAtLoad</key>
+		<true/>
+		<key>StandardErrorPath</key>
+		<string>/tmp/tyos.err</string>
+		<key>StandardOutPath</key>
+		<string>/tmp/tyos.out</string>
+	</dict>
+</plist>
