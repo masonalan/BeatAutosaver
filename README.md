@@ -43,4 +43,10 @@ BeatAutosaver will automatically run after install. Currently, BeatAutosaver wil
 
 ## Future Improvements
 
-I am working on implementing the following: - Compatibility with more naming conventions - Installing with a traditional .pkg installer - UI interface - Ability to change last day of week (currently Sunday) - Download python3 and fswatch on install rather than including them in git repo
+I am working on implementing the following:
+
+-   Compatibility with more naming conventions
+-   Installing with a traditional .pkg installer
+-   UI interface
+-   Ability to change last day of week (currently Sunday)
+-   Download python3 and fswatch on install rather than including them in git repo
