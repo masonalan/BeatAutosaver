@@ -59,9 +59,6 @@ def search(search_dir):
 
 
 def main():
-	config_f = open(os.path.join(os.path.dirname(__file__), "beat_autosaver_config.json"))
-	config = json.load(config_f)
-
 	global output_dir 
 	output_dir = sys.argv[3]
 
