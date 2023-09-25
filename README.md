@@ -16,7 +16,6 @@ To mark a `.mp3` as a loop, simply begin the name with `loop`, like so:
 
     loop_over_the_hill_123_ty
 
-
 ## Installation
 
 To install, run:
@@ -29,7 +28,6 @@ BeatAutosaver requires `python3` and `fswatch`. If either or both are not instal
 
     xcode-select –install
 
-
 ## Configuration
 
 To update your settings, go to your install directory and open `config.sh`. Some settings require a restart of the launch agent to be applied. To do that, run:
@@ -37,18 +35,12 @@ To update your settings, go to your install directory and open `config.sh`. Some
     launchctl stop com.tyos.BeatAutosaver.plist
     launchctl start com.tyos.BeatAutosaver.plist
 
-
 ## Running
 
 BeatAutosaver will automatically run after install. Currently, BeatAutosaver will copy any file that looks like a beat or a loop that has been created or changed to its respective weekly folder. If you want to search through your entire beat folder and sort all your beats at once, navigate to your install directory and run:
 
     ./beat_autosaver.sh --all
-        
 
 ## Future Improvements
 
-I am working on implementing the following:
-    - Compatibility with more naming conventions
-    - Installing with a traditional .pkg installer
-    - UI interface
-    - Ability to change last day of week (currently Sunday)
+I am working on implementing the following: - Compatibility with more naming conventions - Installing with a traditional .pkg installer - UI interface - Ability to change last day of week (currently Sunday) - Download python3 and fswatch on install rather than including them in git repo
